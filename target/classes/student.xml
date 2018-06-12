@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<student name="mzw" age="18">
+    <course name="yuwen" teacher="zhang" />
+    <course name="shuxue" teacher="wang" />
+    <address>
+        <name>school</name>
+        <value>nanjing</value>
+    </address>
+    <address>
+        <name>home</name>
+        <value>yangzhou</value>
+    </address>
+</student>
