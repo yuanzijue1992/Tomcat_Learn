@@ -1,4 +1,4 @@
-package Parse;
+package Parse.Digester_Learn;
 
 public class Course {
 

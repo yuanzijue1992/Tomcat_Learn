@@ -1,4 +1,4 @@
-package Parse;
+package Parse.Digester_Learn;
 
 import org.apache.commons.digester.Digester;
 import org.junit.Test;
@@ -18,7 +18,7 @@ public class Digester_test {
         dig.setValidating(false);
 
         // 匹配student节点时，创建student对象
-        dig.addObjectCreate("student",Student.class);
+        dig.addObjectCreate("student", Student.class);
 
         // 匹配student对象时，设置对象属性
         // 也就是在匹配到这个节点时，会调用这个类中的相关set方法设置属性，如果相应的设置方法不存在则设为null
